@@ -14,6 +14,7 @@ else
 	website_title = nil
 end
 
+#unless conditionals execute if the condition is false
 unless website_title.nil?
 	file = open("http://#{website}")
 	contents = file.read
